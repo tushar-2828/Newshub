@@ -1,0 +1,52 @@
+body {
+  background-color: aquamarine;
+}
+
+
+.col-xl-3 {
+  display: flex;
+}
+
+/* CARD */
+.news-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+/* HOVER EFFECT */
+.news-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 12px 10px rgb(176, 14, 133);
+}
+
+
+
+/* CARD BODY */
+.news-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 16px;
+}
+
+/* TITLE */
+.news-card-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+.news-card-body .btn {
+
+  margin-top: auto;
+  font-weight: 600;
+  border-radius: 6px;
+
+}
