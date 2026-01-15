@@ -24,7 +24,7 @@ export default function HomePage() {
 
 
   async function getFetchApi() {
-    let response = await fetch(`https://newsapi.org/v2/everything?q=${q}&language=${Language}&from=2025-11-03&sortBy=publishedAt&apiKey=0553afd6ca8249fe86a82a238c0ba36a`)
+    let response = await fetch(`https://newsapi.org/v2/everything?q=${q}&language=${Language}&sortBy=publishedAt&apiKey=c2ad6fb3e89a4ad39238bf4fbaf1cc38`)
     response = await response.json()
     console.log(response)
 
